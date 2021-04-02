@@ -1,8 +1,7 @@
 # flutter_widget_wiki
-![img1](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absorbpointer_1.gif)
 
-[**AbsorbPointer**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/%E8%AF%A6%E8%A7%A3.md)<br>
-[**Accumulator**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/accumulator/%E8%AF%A6%E8%A7%A3.md)<br>
-[**Action**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/action/%E8%AF%A6%E8%A7%A3.md)<br>
-[**Actions**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/actions/%E8%AF%A6%E8%A7%A3.md)<br>
-[**Align**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/align/%E8%AF%A6%E8%A7%A3.md)<br>
+[**AbsorbPointer**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/README.md)<br>
+[**Accumulator**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/accumulator/README.md)<br>
+[**Action**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/action/README.md)<br>
+[**Actions**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/actions/README.md)<br>
+[**Align**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/align/README.md)<br>

@@ -24,7 +24,7 @@ Actions的属性actions是一个Map，存储的是Intent类型<T>与Action<T>的
 在Map中寻找ModifyAction,通过ModifyAction来执行自己的invoke函数，也就是修改Model中data的值。Actions.invoke(context,intent)
 函数，不同的Intent对应不用的操作Action.
 
-![img](lib/widget/actions/res/actions.gif)
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/actions/res/actions.gif)
 
 定义数据模型
 ```

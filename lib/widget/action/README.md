@@ -1,4 +1,4 @@
-### Intent Action ActionDispatcher ActionListener
+# Intent Action ActionDispatcher ActionListener
 #### **Intent**
 **Intent**是意图,官方翻译是一个抽象类，表示Action的特定配置。
 
@@ -33,8 +33,10 @@ Intent是行动的意图
 |isEnabled(covariant T intent) → bool|如果操作已启用并准备好被调用，则返回true。|
 |notifyActionListeners() → void|调用所有注册的监听器。|
 |removeActionListener(ActionListenerCallback listener) → void|删除监听器|
+<br>
+<br>
 
-| 子类  |释义|
+|子类  |释义|
 |---| ---|
 |  ActivateAction |抽象类，执行激活当前有焦点的控制器|
 |  CallbackAction |接收一个回调函数，这个函数被invoke指定，这样的话就不需要创建Action的子类了，直接接收一个执行动作的回调函数|
@@ -54,6 +56,8 @@ Intent是行动的意图
 **ActionListener**是一个helper小部件，用于确保正确删除操作上的监听器，继承StatefulWidget.
 
 #### 示例1（官方）
+
+![img7](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/action/res/action_listener_1.gif)
 
 自定义Intent和Action
 ```

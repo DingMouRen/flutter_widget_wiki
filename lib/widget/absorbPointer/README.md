@@ -114,7 +114,7 @@ Center(
       ),
     );
 ```
-![img3](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_3.gif)
+![img3](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_3.gif)
 
 #### 示例4 AbsorbPointer与IgnorePointer的区别
 
@@ -159,9 +159,9 @@ Center(
     );
 ```
 AbsorbPointer在absorbing为true时，效果如下:<br>
-![img4](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_4.gif)
+![img4](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_4.gif)
 AbsorbPointer在absorbing为false时，效果如下:<br>
-![img5](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_5.gif)
+![img5](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_5.gif)
 
 IgnorePointer在ignoring为true时，自身和子部件都没有指针事件，好像被直接穿透一样,指针事件向下面的部件传递;
 在ignoring为false时,自身和子部件都有指针事件。
@@ -205,6 +205,6 @@ Center(
     );
 ```
 IgnorePointer在ignoring为true时,效果如下:<br>
-![img6](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_6.gif)
+![img6](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_6.gif)
 IgnorePointer在ignoring为false时,效果如下:<br>
-![img7](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_7.gif)
+![img7](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_7.gif)

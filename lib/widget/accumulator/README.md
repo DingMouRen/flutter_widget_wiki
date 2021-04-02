@@ -1,4 +1,4 @@
-### Accumulator
+# Accumulator
 简述：Flutter内置的累加器，默认初始值为0
 
 | 属性/函数  |释义|
@@ -30,3 +30,4 @@
     );
   }
 ```
+![img7](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/accumulator/res/accumulator.gif)
