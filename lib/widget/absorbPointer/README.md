@@ -159,7 +159,7 @@ Center(
     );
 ```
 AbsorbPointer在absorbing为true时，效果如下:<br>
-![img4](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_4.gif)
+![img4](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_4.gif)<br>
 AbsorbPointer在absorbing为false时，效果如下:<br>
 ![img5](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_5.gif)
 
@@ -205,6 +205,6 @@ Center(
     );
 ```
 IgnorePointer在ignoring为true时,效果如下:<br>
-![img6](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_6.gif)
+![img6](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_6.gif)<br>
 IgnorePointer在ignoring为false时,效果如下:<br>
 ![img7](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_7.gif)
