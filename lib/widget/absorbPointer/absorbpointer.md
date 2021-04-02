@@ -81,7 +81,8 @@ Stack相对布局中两个按钮，上面得按钮通过AbsorbPointer包裹，�
       ],
     );
 ```
-![img2](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_2.gif)
+![absortpointer_2](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_2.gif)
+
 
 #### 示例3
 AbsorbPointer可以统一控制多个小部件，不用为每一个小部件进行设置。
