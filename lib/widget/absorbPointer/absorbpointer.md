@@ -81,7 +81,7 @@ Stack相对布局中两个按钮，上面得按钮通过AbsorbPointer包裹，�
       ],
     );
 ```
-![absortpointer_2](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/res/absortpointer_2.gif?raw=true)
+![absortpointer_2](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/absorbPointer/res/absorbpointer_2.gif)
 
 
 #### 示例3
