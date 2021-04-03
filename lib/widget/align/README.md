@@ -8,6 +8,8 @@
 |widthFactor → double?|值必须>=0,当父部件没有设置宽高时有效果，Align的宽度为子部件宽度乘以widthFactor|
 
 #### 示例1
+父部件有固定宽高的情况下，alignment来指定子部件的位置。中心是父部件的中心，宽度范围[-1,1],高度范围[-1,1]
+
 ```
  Center(
       child: Container(
@@ -23,7 +25,7 @@
       ),
     );
 ```
-父部件有固定宽高的情况下，alignment来指定子部件的位置。中心是父部件的中心，宽度范围[-1,1],高度范围[-1,1]
+Alignment的9个位置。
 ```
   static const Alignment topLeft = Alignment(-1.0, -1.0);
   static const Alignment topCenter = Alignment(0.0, -1.0);
@@ -35,3 +37,4 @@
   static const Alignment bottomCenter = Alignment(0.0, 1.0);
   static const Alignment bottomRight = Alignment(1.0, 1.0);
 ```
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_1.png)<br>
