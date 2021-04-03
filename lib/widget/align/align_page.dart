@@ -35,12 +35,10 @@ class _AlignPageState extends State<AlignPage> {
         color: Colors.deepOrange[400],
         width: 200,
         height: 200,
-        child: Align(
-          alignment: Alignment.center,
-          widthFactor: 1,
-          heightFactor: 1,
-          child: FlutterLogo(size: 60,),
-        ),
+        // child: Align(
+        //   alignment: Alignment(0,0),
+        //   child: FlutterLogo(size: 60,),
+        // ),
       ),
     );
   }
