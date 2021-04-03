@@ -33,13 +33,14 @@ class _AlignPageState extends State<AlignPage> {
     return Center(
       child: Container(
         color: Colors.deepOrange[400],
-        width: 200,
-        height: 200,
-        // child: Align(
-        //   alignment: Alignment(0,0),
-        //   child: FlutterLogo(size: 60,),
-        // ),
-      ),
+        child: Align(
+            alignment: Alignment(-1,-1),
+            widthFactor: 0.5,
+            heightFactor: 0.5,
+            child: FlutterLogo(size: 60,),
+          ),
+        ),
     );
   }
+
 }

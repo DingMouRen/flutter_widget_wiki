@@ -8,7 +8,7 @@
 |widthFactor → double?|值必须>=0,当父部件没有设置宽高时有效果，Align的宽度为子部件宽度乘以widthFactor|
 
 #### 示例1
-父部件有固定宽高的情况下，alignment来指定子部件的位置。中心是父部件的中心，
+父部件有固定宽高的情况下，alignment来指定child在自身父部件的位置。中心是父部件的中心，
 
 ```
  Center(
@@ -40,5 +40,77 @@ Alignment的9个位置。
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_1.png)<br>
 
 #### 示例2
-Alignment的坐标系是以父部件的中心作为中心(0,0),如下<br>
+父部件有固定宽高的情况下，Alignment的坐标系是以父部件的中心作为中心(0,0),向右为x轴的正方向，向下为y轴的正方向，如下<br>
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_2.png)<br>
+
+Alignment(x,y),x为在水平方向上的分数，y为在竖直方向的分数，x范围[-1,1],y范围[-1,1],子部件可以显示在范围内的任何位置。
+```
+Center(
+      child: Container(
+        color: Colors.deepOrange[400],
+        width: 200,
+        height: 200,
+        child: Align(
+          alignment: Alignment(-0.5,-1),
+          child: FlutterLogo(size: 60,),
+        ),
+      ),
+    );
+```
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_3.png)<br>
+
+#### 示例3
+父部件有固定宽高的情况下，如果Alignment的x或y值不在[-1,1]之间的话，不会将child显示在自身父部件上。
+```
+Center(
+      child: Container(
+        color: Colors.deepOrange[400],
+        width: 200,
+        height: 200,
+        child: Align(
+          alignment: Alignment(-2,0),
+          child: FlutterLogo(size: 60,),
+        ),
+      ),
+    );
+```
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_4.png)<br>
+
+#### 示例4
+在Align的父部件的宽高不确定的情况下，Align的widwidthFactor或heightFactor才有效果
+```
+Center(
+      child: Container(
+        color: Colors.deepOrange[400],
+        child: Align(
+            alignment: Alignment(-1,-1),
+            widthFactor: 2,
+            heightFactor: 2,
+            child: FlutterLogo(size: 60,),
+          ),
+        ),
+    );
+```
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_5.png)<br><br>
+
+```
+Center(
+      child: Container(
+        color: Colors.deepOrange[400],
+        child: Align(
+            alignment: Alignment(-1,-1),
+            widthFactor: 0.5,
+            heightFactor: 0.5,
+            child: FlutterLogo(size: 60,),
+          ),
+        ),
+    );
+```
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_6.png)<br><br>
+
+
+
+
+
+
+
