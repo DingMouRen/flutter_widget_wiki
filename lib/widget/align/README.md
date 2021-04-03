@@ -40,5 +40,5 @@ Alignment的9个位置。
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_1.png)<br>
 
 #### 示例2
-Alignment的坐标系是以父部件的中心作为中心(0,0),如下
+Alignment的坐标系是以父部件的中心作为中心(0,0),如下<br>
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_2.png)<br>
