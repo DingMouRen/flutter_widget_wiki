@@ -5,6 +5,7 @@ import 'package:flutter_widget_wiki/widget/accumulator/accumulator_page.dart';
 import 'package:flutter_widget_wiki/widget/actionListener/action_listener_page.dart';
 import 'package:flutter_widget_wiki/widget/actions/actions_page.dart';
 import 'package:flutter_widget_wiki/widget/align/align_page.dart';
+import 'package:flutter_widget_wiki/widget/alignment/alignment_page.dart';
 import 'package:oktoast/oktoast.dart';
 
 void main() {
@@ -86,6 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
       CustomButton("ActionListener", ActionListenerPage()),
       CustomButton("Actions", ActionsPage()),
       CustomButton("Align", AlignPage()),
+      CustomButton("Alignment", AlignmentPage()),
 
     ],
   );
