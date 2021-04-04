@@ -10,7 +10,9 @@ Alignment(0.0, 3.0) 表示一个点，该点相对于矩形水平居中，垂直
 |---|---|
 |x → double|水平方向上的距离分数|
 |y → double|竖直方向上的距离分数|
-<br>
+
+
+
 |函数|释义|
 |---|---|
 |add(AlignmentGeometry other) → AlignmentGeometry|返回两个AlignmentGeometry对象的和|
