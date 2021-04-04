@@ -77,8 +77,9 @@ Center(
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_4.png)<br>
 
 #### 示例4
-在Align的父部件的宽高不确定的情况下，Align的widwidthFactor或heightFactor才有效果
+在Align的父部件的宽高不指定的情况下，Align的widwidthFactor或heightFactor才有效果
 ```
+//Align的宽度和高度都是FlutterLogo宽高的两倍，并将FlutterLogo置于左上角的位置
 Center(
       child: Container(
         color: Colors.deepOrange[400],
@@ -94,6 +95,7 @@ Center(
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/align/res/align_5.png)<br><br>
 
 ```
+//Align的大小是FlutterLogo的一半，位置在左上角，这时候Align和FlutterLogo左上角的坐标是重合的。
 Center(
       child: Container(
         color: Colors.deepOrange[400],
