@@ -1,0 +1,2 @@
+# AlignmentGeometryTween
+AlignmentGeometryTween:两个AlignmentGeometry之间的插值
