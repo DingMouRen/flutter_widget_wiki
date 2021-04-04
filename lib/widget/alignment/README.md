@@ -60,4 +60,23 @@ flutter: result:Offset(5.0, 5.0)
 ```
 
 #### 示例4
-
+inscribe(Size size, Rect rect) ，返回一个给定大小的矩形，按照此对齐方式在给定矩形内对齐
+```
+Alignment alignment = Alignment(1, 1);
+Size size = Size(6,6);
+Rect rect = Rect.fromLTRB(0, 0, 10, 10);
+Rect result = alignment.inscribe(size, rect);
+print('result:$result');
+结果日志：
+flutter: result:Rect.fromLTRB(4.0, 4.0, 10.0, 10.0)
+```
+示例5
+withinRect(Rect rect)：返回给定矩形中的分数点。
+```
+Alignment alignment = Alignment(0, 0);
+Rect rect = Rect.fromLTRB(0, 0, 10, 10);
+Offset result = alignment.withinRect(rect);
+print('result:$result');
+结果日志:
+flutter: result:Offset(5.0, 5.0)
+```

@@ -5,3 +5,4 @@
 [**Action**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/action/README.md)<br>
 [**Actions**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/actions/README.md)<br>
 [**Align**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/align/README.md)<br>
+[**Alignment**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alignment/README.md)<br>
