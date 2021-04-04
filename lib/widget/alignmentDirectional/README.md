@@ -1,0 +1,2 @@
+# AlignmentDirectional
+AlignmentDirectional是以大小的一部分表示的偏移量，但其水平分量依赖于写入方向。
