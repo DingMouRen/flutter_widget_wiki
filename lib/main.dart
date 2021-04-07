@@ -5,7 +5,11 @@ import 'package:flutter_widget_wiki/widget/accumulator/accumulator_page.dart';
 import 'package:flutter_widget_wiki/widget/actionListener/action_listener_page.dart';
 import 'package:flutter_widget_wiki/widget/actions/actions_page.dart';
 import 'package:flutter_widget_wiki/widget/align/align_page.dart';
+import 'package:flutter_widget_wiki/widget/alignTransition/align_transition_page.dart';
 import 'package:flutter_widget_wiki/widget/alignment/alignment_page.dart';
+import 'package:flutter_widget_wiki/widget/alwaysScrollableScrollPhysics/AlwaysScrollableScrollPhysicsPage.dart';
+import 'package:flutter_widget_wiki/widget/alwaysStoppedAnimation/always_stopped_animation_page.dart';
+import 'package:flutter_widget_wiki/widget/androidView/android_view_page.dart';
 import 'package:oktoast/oktoast.dart';
 
 void main() {
@@ -88,6 +92,10 @@ class _MyHomePageState extends State<MyHomePage> {
       CustomButton("Actions", ActionsPage()),
       CustomButton("Align", AlignPage()),
       CustomButton("Alignment", AlignmentPage()),
+      CustomButton("AlignTransition", AlignTransitionPage()),
+      CustomButton("AlwaysScrollableScrollPhysics", AlwaysScrollableScrollPhysicsPage()),
+      CustomButton("AlwaysStoppedAnimation", AlwaysStoppedAnimationPage()),
+      CustomButton("AndroidView", AndroidViewPage()),
 
     ],
   );

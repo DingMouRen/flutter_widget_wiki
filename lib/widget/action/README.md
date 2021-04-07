@@ -27,16 +27,16 @@ Intent是行动的意图
 
 | 抽象函数 |释义|
 |---| --- |
-|  addActionListener(ActionListenerCallback listener) → void|注册一个回调以监听此操作状态的更改。|
+|addActionListener(ActionListenerCallback listener) → void|注册一个回调以监听此操作状态的更改。|
 |consumesKey(covariant T intent) → bool|指示当通过键事件调用该操作时，该操作是否应将映射到该操作的键事件视为“已处理”|
 |invoke(covariant T intent) → Object?|当要执行动作时调用。|
 |isEnabled(covariant T intent) → bool|如果操作已启用并准备好被调用，则返回true。|
 |notifyActionListeners() → void|调用所有注册的监听器。|
 |removeActionListener(ActionListenerCallback listener) → void|删除监听器|
-<br>
+
 <br>
 
-|子类  |释义|
+|子类|释义|
 |---| ---|
 |  ActivateAction |抽象类，执行激活当前有焦点的控制器|
 |  CallbackAction |接收一个回调函数，这个函数被invoke指定，这样的话就不需要创建Action的子类了，直接接收一个执行动作的回调函数|

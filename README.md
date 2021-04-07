@@ -10,3 +10,7 @@
 |[**AlignmentGeometry**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alignmentGeometry/README.md)|抽象类,允许识别文本方向分辨率的对齐的基类,直接子类:Alignment、AlignmentDirectional|
 |[**AlignmentGeometryTween**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alignmentGeometryTween/README.md)|两个AlignmentGeometry之间的插值|
 |[**AlignmentTween**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alignmentTween/README.md)|两个Alignment之间的插值|
+|[**AlignTransition**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alignTransition/README.md)|Align的动画版本，可以为子部件的对齐属性设置平移动画|
+|[**AlwaysScrollableScrollPhysics**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alwaysScrollableScrollPhysics/README.md)|指定可滚动部件的滚动特性,一直响应滚动事件|
+|[**AlwaysStoppedAnimation**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alwaysStoppedAnimation/README.md)|总是在给定值处停止的动画。状态总是AnimationStatus.forward|
+|[**AndroidView**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/androidView/README.md)|在Flutter小部件上嵌入一个Android的View,与UiKitView对应，UiKitView是在Flutter小部件上嵌入一个ios的View.|
