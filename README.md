@@ -1,4 +1,6 @@
 # flutter_widget_wiki
+### Flutter 1.26.0-1.0.pre ,Dart 2.12.0 (build 2.12.0-141.0.dev)<br>
+
 |widget|释义|
 |---|---|
 |[**AbsorbPointer**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/absorbPointer/README.md)|一个吸收指针事件得小部件|
@@ -12,5 +14,8 @@
 |[**AlignmentTween**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alignmentTween/README.md)|两个Alignment之间的插值|
 |[**AlignTransition**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alignTransition/README.md)|Align的动画版本，可以为子部件的对齐属性设置平移动画|
 |[**AlwaysScrollableScrollPhysics**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alwaysScrollableScrollPhysics/README.md)|指定可滚动部件的滚动特性,一直响应滚动事件|
-|[**AlwaysStoppedAnimation**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/alwaysStoppedAnimation/README.md)|总是在给定值处停止的动画。状态总是AnimationStatus.forward|
-|[**AndroidView**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/androidView/README.md)|在Flutter小部件上嵌入一个Android的View,与UiKitView对应，UiKitView是在Flutter小部件上嵌入一个ios的View.|
+|[**Animatable**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatable/README.md)|在给定的Animation<double>作为输入时，Animatable可以产生一个类型为T的值，Animatable是Tween的父类|
+|[**AnimatedAlign**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedAlign/README.md)|Align的动画版本，在给定的时间内，当alignment发生变化时，自动转换子部件的位置|
+|[**AnimatedBuilder**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedBuilder/README.md)|用于创建动画的通用小部件。|
+|[**AnimatedContainer**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedContainer/README.md)|提供属性渐变动画的小部件|
+|[**AnimatedCrossFade**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedCrossFade/README.md)|一个小部件在两个给定的子对象之间交叉淡出，并在它们的大小之间动画。|
