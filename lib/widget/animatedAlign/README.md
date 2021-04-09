@@ -13,7 +13,8 @@ Flutter 1.26.0-1.0.pre ,Dart 2.12.0 (build 2.12.0-141.0.dev)<br>
 |onEnd → VoidCallback?|动画结束时的回调|
 
 #### 示例1 基本使用
-````dart
+
+```dart
 Center(
       child: Container(
         color: Colors.red,
@@ -55,7 +56,7 @@ Center(
     );
 ```
 
-![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedAlign/res/animate_align_2.gif)
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedAlign/res/animate_align_2.gif)<br>
 
 Curves动画曲线有很多种，
 
