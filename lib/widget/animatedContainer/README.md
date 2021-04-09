@@ -306,4 +306,4 @@ Row(
       ],
     );
 ```
-![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedContainer/res/animated_container_13.gif)<br>
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedContainer/res/animated_container_13.gif)
