@@ -91,7 +91,7 @@ firstCurve是第一个子部件的渐隐曲线，secondCurve是第二个子部�
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedCrossFade/res/animated_cross_fade_2.gif)
 
 #### 示例3 layoutBuilder
-当两个子部件大小不一致时，切换的时候会出现抖动的情况，如下:
+当两个子部件大小不一致时，切换的时候会出现抖动的情况，如下:<br>
 ![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedCrossFade/res/animated_cross_fade_3.gif)<br>
 这种抖动的情况，可以通过layoutBuilder来处理
 ```dart
@@ -140,5 +140,5 @@ Center(
           ),
         ));
 ```
-![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedCrossFade/res/animated_cross_fade_3.gif)<br>
+![img](https://github.com/DingMouRen/flutter_widget_wiki/raw/master/lib/widget/animatedCrossFade/res/animated_cross_fade_4.gif)<br>
 
