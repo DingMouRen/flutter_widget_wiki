@@ -19,3 +19,6 @@
 |[**AnimatedBuilder**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedBuilder/README.md)|用于创建动画的通用小部件。|
 |[**AnimatedContainer**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedContainer/README.md)|提供属性渐变动画的小部件|
 |[**AnimatedCrossFade**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedCrossFade/README.md)|一个小部件在两个给定的子对象之间交叉淡出，并在它们的大小之间动画。|
+|[**AnimatedDefaultTextStyle**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedDefaultTextStyle/README.md)|DefaultTextStyle的动画版本，在给定的时间内，当给定的样式发生变化时，呈现渐变动画。|
+|[**AnimatedList**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/animatedList/README.md)|一个滚动容器，可以为item被插入或移除时添加动画效果。|
+|[**DrawerController**](https://github.com/DingMouRen/flutter_widget_wiki/blob/master/lib/widget/drawerController/README.md)|为Drawer提供交互行为|
