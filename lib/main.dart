@@ -53,6 +53,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    var tempList = [];
+    map.forEach((key, value) {
+      tempList.add(key);
+    });
+    tempList.sort();
+
+    tempList.forEach((element) {
+      listWidgets.add(map[element] as CustomButton);
+    });
+
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title!),

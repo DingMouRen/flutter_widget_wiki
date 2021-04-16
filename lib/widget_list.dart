@@ -14,28 +14,55 @@ import 'package:flutter_widget_wiki/widget/animatedAlign/animated_align_page.dar
 import 'package:flutter_widget_wiki/widget/animatedBuilder/animated_builder_page.dart';
 import 'package:flutter_widget_wiki/widget/animatedContainer/animated_container_page.dart';
 import 'package:flutter_widget_wiki/widget/animatedCrossFade/animated_cross_fade_page.dart';
+import 'package:flutter_widget_wiki/widget/animatedDefaultTextStyle/animated_default_text_style_page.dart';
+import 'package:flutter_widget_wiki/widget/animatedList/animated_list_example_1.dart';
+import 'package:flutter_widget_wiki/widget/animatedList/animated_list_page.dart';
+import 'package:flutter_widget_wiki/widget/drawerController/drawer_controller_page.dart';
+import 'package:flutter_widget_wiki/widget/pageView/page_view_page.dart';
 
+Map<String,CustomButton> map = {
+  "AbsorbPointer":CustomButton("AbsorbPointer", AbsorbPointerPage()),
+  "Accumulator":CustomButton("Accumulator", AccumulatorPage()),
+  "ActionListener":CustomButton("ActionListener", ActionListenerPage()),
+  "Actions":CustomButton("Actions", ActionsPage()),
+  "Align":CustomButton("Align", AlignPage()),
+  "Alignment":CustomButton("Alignment", AlignmentPage()),
+  "AlignTransition":CustomButton("AlignTransition", AlignTransitionPage()),
+  "AlwaysScrollableScrollPhysics":CustomButton("AlwaysScrollableScrollPhysics", AlwaysScrollableScrollPhysicsPage()),
+  "AlwaysStoppedAnimation":CustomButton("AlwaysStoppedAnimation", AlwaysStoppedAnimationPage()),
+  "AndroidView":CustomButton("AndroidView", AndroidViewPage()),
+  "AnimatedAlign":CustomButton("AnimatedAlign", AnimatedAlignPage()),
+  "AnimatedBuilder":CustomButton("AnimatedBuilder", AnimatedBuilderPage()),
+  "AnimatedContainer":CustomButton("AnimatedContainer", AnimatedContainerPage()),
+  "AnimatedCrossFade":CustomButton("AnimatedCrossFade", AnimatedCrossFadePage()),
+  "AnimatedDefaultTextStyle":CustomButton("AnimatedDefaultTextStyle", AnimatedDefaultTextStylePage()),
+  "AnimatedList ":CustomButton("AnimatedList ", AnimatedListPage()),
+  "DrawController ":CustomButton("DrawController ", DrawerControllerPage()),
+  "PageView ":CustomButton("PageView ", PageViewPage()),
+};
 
 List<Widget> listWidgets = [
-  CustomButton("AbsorbPointer", AbsorbPointerPage()),
-  CustomButton("Accumulator", AccumulatorPage()),
-  CustomButton("ActionListener", ActionListenerPage()),
-  CustomButton("Actions", ActionsPage()),
-  CustomButton("Align", AlignPage()),
-  CustomButton("Alignment", AlignmentPage()),
-  CustomButton("AlignTransition", AlignTransitionPage()),
-  CustomButton("AlwaysScrollableScrollPhysics", AlwaysScrollableScrollPhysicsPage()),
-  CustomButton("AlwaysStoppedAnimation", AlwaysStoppedAnimationPage()),
-  CustomButton("AndroidView", AndroidViewPage()),
-  CustomButton("AnimatedAlign", AnimatedAlignPage()),
-  CustomButton("AnimatedBuilder", AnimatedBuilderPage()),
-  CustomButton("AnimatedContainer", AnimatedContainerPage()),
-  CustomButton("AnimatedCrossFade", AnimatedCrossFadePage()),
+  // CustomButton("AbsorbPointer", AbsorbPointerPage()),
+  // CustomButton("Accumulator", AccumulatorPage()),
+  // CustomButton("ActionListener", ActionListenerPage()),
+  // CustomButton("Actions", ActionsPage()),
+  // CustomButton("Align", AlignPage()),
+  // CustomButton("Alignment", AlignmentPage()),
+  // CustomButton("AlignTransition", AlignTransitionPage()),
+  // CustomButton("AlwaysScrollableScrollPhysics", AlwaysScrollableScrollPhysicsPage()),
+  // CustomButton("AlwaysStoppedAnimation", AlwaysStoppedAnimationPage()),
+  // CustomButton("AndroidView", AndroidViewPage()),
+  // CustomButton("AnimatedAlign", AnimatedAlignPage()),
+  // CustomButton("AnimatedBuilder", AnimatedBuilderPage()),
+  // CustomButton("AnimatedContainer", AnimatedContainerPage()),
+  // CustomButton("AnimatedCrossFade", AnimatedCrossFadePage()),
+  // CustomButton("AnimatedDefaultTextStyle ", AnimatedDefaultTextStylePage()),
+  // CustomButton("AnimatedList ", AnimatedListPage()),
 ];
 
 
 // ignore: must_be_immutable
-class CustomButton extends StatelessWidget{
+class CustomButton extends StatelessWidget {
 
   late String widgetName;
   late Widget widget;
